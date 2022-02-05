@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  display: flex;
+  padding:10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+  height: fit-content;
+  background-color: #f05;
+  position: relative;
+  border-bottom: 2px solid #ddd;
+}
+.logo{
+  color: #fff;
+  margin-left: 20px;
+}
+.links{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  margin: auto 10px;
+}
+.links li{
+  margin: 0px 15px;
+  font-size:1.2rem;
+  
+}
+.links li a:hover {
+background-color: #fff;
+color: #000;
+border-radius: 2px;
+
+}
+a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+
+}
+.home{
+  padding: 10px;
+  margin-top: 20px;
+
+}
+.blog{
+  margin: auto;
+  background-color : #ddd;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  width: 50%;
+  border: 2px solid #f05;
+}
+.item:hover{
+  box-shadow:#ddd;
+  width: 55%;
+  height: 110%;
+  cursor:pointer;
+  background-color: #fff;
+}
+.container-card{
+  display: flex;
+  justify-content: center;
+}
+.item{
+  border-radius: 5px;
+  padding: 5px;
+  width:300px;
+  height: fit-content;
+  border: solid 1px #f09;
+  text-align: center;
+  margin: 5px auto;
+  padding: 10px;
+  background-color: rgb(129, 129, 129);
+}
+.match h3{
+  font-size: 22px;
+  font-weight: bold;
+}
+.central{
+  display:flex;
+  justify-content: center;
+}
+.btn-outline-dark{
+  margin-left:5px;
+}
+.loading{
+  font-size: 20px;
+  margin: auto;
+}
+
